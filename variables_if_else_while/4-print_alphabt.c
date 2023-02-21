@@ -10,13 +10,13 @@ int main(void)
 {
 	char x = 'a';
 
-	while (c <= 'z')
+	while (x <= 'z')
 	{
-		if (c != 'e' && c != 'q')
+		if (x != 'e' && x != 'q')
 		{
-			putchar(c);
+			putchar(x);
 		}
-		c++;
+		x++;
 	}
 
 	putchar('\n');
