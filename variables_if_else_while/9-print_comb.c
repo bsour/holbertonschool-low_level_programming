@@ -14,8 +14,11 @@ int main(void)
 	while (numbers <= '9')
 	{
 		putchar(numbers);
-		putchar(',');
-		putchar(' ');
+		if (numbers != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		numbers++;
 	}
 
