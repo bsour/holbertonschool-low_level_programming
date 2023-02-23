@@ -10,10 +10,12 @@
 void print_a_z(void)
 {
 	int x;
+
 	for (x = 'a'; x <= 'z'; x++)
 	{
 		putchar(tolower(x));
 	}
+}
 
 /**
  * main - calls the function
