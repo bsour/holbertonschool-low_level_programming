@@ -16,17 +16,3 @@ void print_alphabet(void)
 		putchar(tolower(x));
 	}
 }
-
-/**
- * main - calls the function
- *
- * Return: 0 on success
- */
-
-int main(void)
-{
-	print_alphabet();
-
-	return (0);
-
-}
