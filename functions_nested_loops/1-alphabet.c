@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * print_a_z - to print a-z in lowercase
+ * print_alphabet - to print a-z in lowercase
  *
  */
 
-void print_a_z(void)
+void print_alphabet(void)
 {
 	int x;
 
@@ -25,7 +25,7 @@ void print_a_z(void)
 
 int main(void)
 {
-	print_a_z();
+	print_alphabet();
 
 	return (0);
 
