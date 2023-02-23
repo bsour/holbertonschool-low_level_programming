@@ -2,16 +2,9 @@
 #include "main.h"
 
 /**
- * main - prints _putchar followed by a new line
+ * print_char - print the assigned value with a new line
  *
- * Returns: 0 on success
- *
- */
-
-/**
- * print_char - print _printchar with a new line
- *
- * @text:  - the value to print
+ * @text: - the parameter where the value will be assigned
  */
 
 void print_char(char *text)
@@ -19,9 +12,15 @@ void print_char(char *text)
 	printf("%s\n", text);
 }
 
+/**
+ * main - prints _putchar with a new line
+ *
+ * Return: 0 on success
+ */
+
 int main(void)
 {
-	char text = "_putchar";
+	char *text = "_putchar";
 
 	print_char(text);
 
