@@ -1,4 +1,4 @@
-#include <stdio.h>
+\1;95;0c#include <stdio.h>
 #include "main.h"
 
 /**
@@ -20,4 +20,17 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 	}
+}
+
+/**
+ * main - calls the function
+ *
+ * Return: 0 on success
+ */
+
+int main(void)
+{
+	print_alphabet_x10();
+
+	return (0);
 }
