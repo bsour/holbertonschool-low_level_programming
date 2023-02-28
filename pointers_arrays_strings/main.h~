@@ -1,0 +1,5 @@
+/**
+ * function prototypes will be include here
+ *
+ */
+int _putchar(char c);
