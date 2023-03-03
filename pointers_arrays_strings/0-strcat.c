@@ -8,21 +8,25 @@
  * Return: pointer to the resulting string
  */
 
-char *_strcpy(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
-	int len = 0;
-	int i;
+	int a;
+	int b;
 
-	while (dest[len] != '\0')
+	a = 0;
+
+	while (dest[a] != 0)
 	{
-		dest++;
+		a++;
 	}
 
-	for (i = 0; src[i] != '\0'; i++)
-	{
-		dest[len + i] = src[i];
-	}
-	dest[len + i] = '\0';
+	b = 0;
 
-	return dest;
+	while (src[b] != 0)
+	{
+		dest[a] = src[b];
+		a++;
+		b++;
+	}
+	return (dest);
 }
