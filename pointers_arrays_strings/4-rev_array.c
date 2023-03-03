@@ -2,8 +2,8 @@
 
 /**
  * reverse_array - reverse the content of an array of int
- * @a - the pointer to the array
- * @n - number of elements in the array
+ * @a: the pointer to the array
+ * @n: number of elements in the array
  *
  * Return: zero
  */
