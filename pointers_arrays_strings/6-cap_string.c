@@ -14,18 +14,18 @@ char *cap_string(char *str)
 	int cap = 32;
 	int separators[] = {',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 
-	for (i = 0; n[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (n[i] >= 'a' && n[i] <= 'z')
+		if (str[i] >= 'a' && str[i] <= 'z')
 		{
-			n[i] = n[i] - cap;
+			str[i] = str[i] - cap;
 		}
 
 		cap = 0;
 
 		for (j = 0; j <= 12; j++)
 		{
-			if (n[i] == separators[j])
+			if (str[i] == separators[j])
 			{
 				j = 12;
 				cap = 32;
