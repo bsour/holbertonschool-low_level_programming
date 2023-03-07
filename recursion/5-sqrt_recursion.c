@@ -21,6 +21,10 @@ int _sq_root(int x, int y)
 	{
 		return (_sq_root(x, y + 1));
 	}
+	else
+	{
+		return (-1);
+	}
 }
 
 /**
