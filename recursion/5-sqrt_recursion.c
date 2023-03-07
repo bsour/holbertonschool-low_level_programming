@@ -1,5 +1,8 @@
 #include "main.h"
 
+int _sq_root(int x, int y);
+int _sqrt_recursion(int n);
+
 /**
  * _sq_root - finds the natural square root of a number recursively
  * @x: the number to find the square root of
