@@ -14,7 +14,7 @@ char *str_concat(char *s1, char *s2)
 {
 	char *array;
 	int len_s1 = 0;
-	int len_s1 = 0;
+	int len_s2 = 0;
 	int i = 0;
 
 	if (s1 == NULL)
