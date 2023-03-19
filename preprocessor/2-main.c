@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * C program to print the name of
- * source code file
+ * main - Prints the name of file compiled from
  *
+ * Return: 0
  */
 
-int main()
+int main(void)
 {
-	printf("Name of source file: %s\n", __FILE__);
+	printf("%s\n", __BASE_FILE__);
 
 	return (0);
 }
