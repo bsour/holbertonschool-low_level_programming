@@ -3,21 +3,11 @@ Foundations > Low-level programming & Algorithm > Hatching out
 
 ---
 
-### Project authors
-Julien Barbier
-
-### Assignment dates
-03-09-2020 to 03-10-2020
-
 ### Description
 Introduction to structures and type definitions in C.
 
 ### Requirements
 * The only C standard library functions allowed are `printf`, `malloc`, `free`, and `exit`.
-
-### Provided file(s)
-* [`0-main.c`](./tests/0-main.c) [`1-main.c`](./tests/1-main.c) [`2-main.c`](./tests/2-main.c) [`3-main.c`](./tests/3-main.c) [`4-main.c`](./tests/4-main.c) [`5-main.c`](./tests/5-main.c) 
-
 ---
 
 ## Mandatory Tasks
