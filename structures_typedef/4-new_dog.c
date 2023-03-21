@@ -50,10 +50,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 	return (new_dog);
 
 }
-
 /**
- * _strlen - returns the length of a string
- * @s: the string to get the length of
+ * _strlen - calculates the length of a string
+ * @s: the string to calculate the length of
  *
  * Return: the length of the string
  */
@@ -62,7 +61,9 @@ int _strlen(char *s)
     int len = 0;
 
     while (*s++)
+    {
         len++;
+    }
 
     return (len);
 }
@@ -79,7 +80,9 @@ char *_strcpy(char *dest, char *src)
     char *dest_start = dest;
 
     while (*src)
+    {
         *dest++ = *src++;
+    }
 
     *dest = '\0';
 
