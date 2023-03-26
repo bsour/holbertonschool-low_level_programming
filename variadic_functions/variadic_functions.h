@@ -7,6 +7,13 @@
  */
 
 #include <stdarg.h>
+/**
+ * _putchar - Writes a character to stdout.
+ *
+ * @c: The character to write.
+ *
+ * Return: On success, the number of characters written. On error, -1.
+ */
 
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
