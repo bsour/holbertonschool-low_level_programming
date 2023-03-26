@@ -2,8 +2,18 @@
 #define VARIADIC_FUNCTIONS_H
 
 /**
- * Function prototypes will be included in
- * this file
+ * variadic_functions - Header file containing function prototypes
+ * for working with variadic functions in C.
+ */
+
+/* rest of the header file */
+
+/**
+ * _putchar - Writes a character to stdout.
+ *
+ * @c: The character to write.
+ *
+ * Return: On success, the number of characters written. On error, -1.
  */
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
