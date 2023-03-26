@@ -6,20 +6,12 @@
  * for working with variadic functions in C.
  */
 
-/* rest of the header file */
+#include <stdarg.h>
 
-/**
- * _putchar - Writes a character to stdout.
- *
- * @c: The character to write.
- *
- * Return: On success, the number of characters written. On error, -1.
- */
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
-
 
 #endif /* VARIADIC_FUNCTIONS_H */
