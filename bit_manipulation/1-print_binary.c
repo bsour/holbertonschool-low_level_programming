@@ -17,7 +17,7 @@ void print_binary(unsigned long int n)
 		}
 		else
 		{
-			_puthcar('1');
+			_putchar('1');
 		}
 		i = i >> 1;
 	}
