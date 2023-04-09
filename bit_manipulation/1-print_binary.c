@@ -1,24 +1,32 @@
 #include "main.h"
 
+#include <unistd.h>
+#include <limits.h>
 /**
- * print_binary - Prints the binary representation of a number
- * @n: The number to print in binary
+ * print_binary - print an unsigned int in binary
+ *
+ * @n:
+ *
+ * Return: void
  */
-
 void print_binary(unsigned long int n)
 {
-	unsigned long int i = 1ul << ((sizeof(unsigned long int) * 8) - 1);
+	unsigned long int i = 1ul << 63;
+	char c = '0';
 
-	while (i > 0)
+	while (!(i & n) && i != 0)
+		i = i >> 1;
+
+	if (i == 0)
+		write(1, &c, 1);
+
+	while (i)
 	{
-		if ((n & i) == 0)
-		{
-			_putchar('0');
-		}
+		if (i & n)
+			c = '1';
 		else
-		{
-			_putchar('1');
-		}
+			c = '0';
+		write(1, &c, 1);
 		i = i >> 1;
 	}
 }
