@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  * binary_to_uint - Entry Point
  * @b: const char
@@ -16,7 +16,7 @@ unsigned int binary_to_uint(const char *b)
 
 	while (*b)
 	{
-		if (*B != '0' && != '1')
+		if (*b != '0' && *b != '1')
 			return (0);
 
 		result = (result << 1) + (*b++ - '0');
