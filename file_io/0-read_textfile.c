@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  * read_textfile - prints text from a file
  *
