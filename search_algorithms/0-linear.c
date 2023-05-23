@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * Linear search - Searcheas for a value in an array
+ * linear_search - Searcheas for a value in an array
  * of integers
  * @array: Pointer to the first element in the array
  * @size: Number of elements in the array
