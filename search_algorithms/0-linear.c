@@ -1,4 +1,7 @@
 #include "search_algos.h"
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * Linear search - Searcheas for a value in an array
  * of integers
